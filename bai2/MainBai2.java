@@ -1,16 +1,17 @@
+package bai2;
+
 public class MainBai2 {
     public static void main(String[] args){
-        OfficeEmployee oe = new OfficeEmployee();
-        TechnicalEmployee te = new TechnicalEmployee();
-        SalesEmployee se = new SalesEmployee();
+        OfficeEmployee OE = new OfficeEmployee();
+        SalesEmployee SE = new SalesEmployee();
+        TechnicalEmployee TE = new TechnicalEmployee();
 
-        oe.sendEmail();
+        OE.sendMail();
 
-        te.coding();
-        te.sendEmail();
+        SE.sendMail();
+        SE.sell();
 
-        se.sell();
-        se.sendEmail();
-    }
-    
+        TE.sendMail();
+        TE.coding();
+     }
 }

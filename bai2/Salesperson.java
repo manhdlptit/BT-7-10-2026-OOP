@@ -1,5 +1,5 @@
+package bai2;
+
 public interface Salesperson {
-    public void sell(){
-        System.out.println("Ban hang");
-    };
+    public void sell();
 }

@@ -1,5 +1,5 @@
+package bai2;
+
 public interface Programmer {
-    public void coding(){
-        System.out.println("Lap trinh");
-    };
+    public void coding();
 }

@@ -1,5 +1,5 @@
+package bai2;
+
 public interface EmailSender {
-    public void sendEmail(){
-        System.out.println("Gui mail");
-    };
+    public void sendMail();
 }
